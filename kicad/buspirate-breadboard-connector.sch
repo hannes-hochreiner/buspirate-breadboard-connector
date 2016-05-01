@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:buspirate
+LIBS:buspirate-breadboard-connector-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,7 +50,7 @@ U 1 1 5724D57D
 P 5650 3000
 F 0 "BP1" H 6050 2850 60  0000 C CNN
 F 1 "BusPirate" H 5650 3550 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5650 3000 60  0001 C CNN
+F 2 "breadboard-connector:header_2x5" H 5650 3000 60  0001 C CNN
 F 3 "" H 5650 3000 60  0000 C CNN
 	1    5650 3000
 	1    0    0    -1  

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hannes/2016_Archive/2016-04-30_buspirate-breadboard-connector/kicad/buspirate-breadboard-connector.sch)
-    (date "Sat Apr 30 18:38:41 2016")
+    (date "Sun May  1 08:11:04 2016")
     (tool "Eeschema 4.0.2-1.fc23-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref BP1)
       (value BusPirate)
-      (footprint Pin_Headers:Pin_Header_Straight_2x05)
+      (footprint breadboard-connector:header_2x5)
       (libsource (lib buspirate) (part BusPirate))
       (sheetpath (names /) (tstamps /))
       (tstamp 5724D57D))
@@ -45,7 +45,7 @@
         (pin (num 10) (name GND) (type unspc)))))
   (libraries
     (library (logical buspirate)
-      (uri buspirate.lib)))
+      (uri /home/hannes/2016_Archive/2016-04-30_buspirate-breadboard-connector/kicad/buspirate.lib)))
   (nets
     (net (code 1) (name "Net-(BP1-Pad3)")
       (node (ref BP1) (pin 3))
