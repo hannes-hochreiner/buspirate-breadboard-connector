@@ -10,7 +10,7 @@ Since all connections can remain unchanged between programming and testing, it m
 
 I have tried using a commercially available 2x5 pin header connector.
 The one I bought connects well to the breadboard, but it comes off very easily.
-I works for connecting quickly, but not for the case where I have to connector installed semi-permanently.
+It works for connecting quickly, but not for the case where I have the connector installed semi-permanently.
 
 ## How?
 
